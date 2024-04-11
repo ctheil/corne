@@ -1,5 +1,7 @@
 # Custom Corne layout.
 
+[KeyMap Editor](https://nickcoutsos.github.io/keymap-editor/)
+
 The wired corne was built using PCB, diodes, and hot swap sockets from boardsource, controlled by the NiceNano pulled from my old Lily58. 
 May install LEDs per key as this config is wired to the device via USB-C and to the right via TRRS, but underglow likely will not work once I install layters of acoustic foam. The switches do feature passthrough for the south-facing LEDs, and could add LED control to and additional layer.
 
