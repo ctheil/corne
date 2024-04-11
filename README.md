@@ -1,6 +1,7 @@
 # Custom Corne layout.
 
-The corne was built using PCB, diodes, and hot swap sockets from boardsource, controlled by the NiceNano pulled from my old Lily58.
+The wired corne was built using PCB, diodes, and hot swap sockets from boardsource, controlled by the NiceNano pulled from my old Lily58. 
+May install LEDs per key as this config is wired to the device via USB-C and to the right via TRRS, but underglow likely will not work once I install layters of acoustic foam. The switches do feature passthrough for the south-facing LEDs, and could add LED control to and additional layer.
 
 ### Base Layer
 ![Screenshot 2024-04-11 at 8 32 38 AM](https://github.com/ctheil/corne/assets/86980706/fc019c1e-d1a8-467d-94eb-4b0fcec6321e)
