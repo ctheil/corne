@@ -52,7 +52,7 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp AMPS  &kp PLUS       &kp MINUS  &kp STAR          &kp CARET      &kp C_PREV            &kp C_PLAY      &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
+&kp TAB    &kp AMPS  &kp PLUS       &kp MINUS  &kp STAR          &kp CARET      &kp C_PREV            &kp C_PLAY      &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp DELETE
 &kp LCTRL  &kp EXCL  &kp AT         &kp HASH   &kp DOLLAR        &kp PERCENT    &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LBKT    &trans             &kp BSLH         &kp GRAVE
 &mo 3      &trans    &kp LESS_THAN  &kp EQUAL  &kp GREATER_THAN  &trans         &kp MINUS             &kp PLUS        &trans      &trans             &kp PIPE         &kp TILDE
                                     &trans     &trans            &kp SPACE      &mo 3                 &trans          &trans
