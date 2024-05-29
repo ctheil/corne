@@ -36,10 +36,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4        &kp N5       &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &tog 4
-&trans     &trans  &trans  &trans    &trans        &trans       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans        &trans       &trans    &trans    &trans  &trans     &trans  &trans
-                           &kp LGUI  &kp LEFT_ALT  &kp SPACE    &trans    &trans    &trans
+&kp TAB    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &tog 4
+&trans     &trans  &trans  &trans  &trans  &trans       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&kp LSHFT  &trans  &trans  &trans  &trans  &trans       &trans    &trans    &trans  &trans     &trans  &trans
+                           &trans  &trans  &kp SPACE    &trans    &trans    &trans
             >;
         };
 
@@ -55,7 +55,7 @@
 &kp TAB    &kp AMPS  &kp PLUS       &kp MINUS  &kp STAR          &kp CARET      &kp C_PREV            &kp C_PLAY      &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp DELETE
 &kp LCTRL  &kp EXCL  &kp AT         &kp HASH   &kp DOLLAR        &kp PERCENT    &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LBKT    &trans             &kp BSLH         &kp GRAVE
 &mo 3      &trans    &kp LESS_THAN  &kp EQUAL  &kp GREATER_THAN  &trans         &kp MINUS             &kp PLUS        &trans      &trans             &kp PIPE         &kp TILDE
-                                    &trans     &trans            &kp SPACE      &mo 3                 &trans          &trans
+                                    &trans     &trans            &kp SPACE      &mo 3                 &mo 5           &trans
             >;
         };
 
@@ -77,12 +77,12 @@
             >;
         };
 
-        layer_5 {
+        i3-move-windows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp LS(LG(KP_NUMBER_1))  &kp LS(LG(KP_NUMBER_2))  &kp LS(LG(KP_NUMBER_3))  &kp LS(LG(KP_NUMBER_4))  &kp LS(LG(KP_NUMBER_5))    &kp LS(LG(KP_NUMBER_6))  &kp LS(LG(KP_NUMBER_7))  &kp LS(LG(KP_NUMBER_8))  &kp LS(LG(KP_NUMBER_9))  &kp LG(LS(KP_NUMBER_0))  &trans
+&trans  &trans                   &trans                   &trans                   &trans                   &trans                     &trans                   &trans                   &trans                   &trans                   &trans                   &trans
+&trans  &trans                   &trans                   &trans                   &trans                   &trans                     &trans                   &trans                   &trans                   &trans                   &trans                   &trans
+                                                          &trans                   &trans                   &trans                     &trans                   &trans                   &trans
             >;
         };
     };
